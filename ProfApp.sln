@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProfApp", "ProfApp\ProfApp.csproj", "{0298665E-BD51-4135-A04A-935A3D504DDF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0298665E-BD51-4135-A04A-935A3D504DDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0298665E-BD51-4135-A04A-935A3D504DDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0298665E-BD51-4135-A04A-935A3D504DDF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0298665E-BD51-4135-A04A-935A3D504DDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0298665E-BD51-4135-A04A-935A3D504DDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0298665E-BD51-4135-A04A-935A3D504DDF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3D66A7E1-B86B-48D0-A5F4-7E5413F8AFF8}
+	EndGlobalSection
+EndGlobal

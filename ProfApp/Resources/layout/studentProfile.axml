@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="#151515">
+		<RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/RelativeLayout1"
+				android:background="#252424">
+
+				<ImageView
+					android:src="@drawable/profileown"
+					android:layout_width="60dp"
+					android:layout_height="60dp"
+					android:id="@+id/imageView1"/>
+
+
+				<TextView
+					android:text="STUDENT"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textSize="20dp"
+					android:textStyle="bold"
+					android:textColor="#ffff"
+					android:id="@+id/news"
+					android:layout_centerInParent="true"/>
+		
+		</RelativeLayout>
+			
+			
+			<android.support.v4.widget.NestedScrollView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content" >
+
+				<LinearLayout
+				android:orientation="vertical"
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:paddingLeft="20dp"
+				android:paddingRight="20dp"
+				android:layout_marginTop="5dp"
+				android:background="#151515"
+				android:gravity="center">
+
+				<TextView
+					android:text="USERS"
+					android:paddingTop="30dp"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:textSize="18dp"
+					android:drawableLeft="@drawable/user"
+					android:textColor="#FFFFFF"
+					android:drawablePadding="20dp"
+					android:id="@+id/lblusers" />
+
+				
+
+					<TextView
+						android:text="JOREM TONGCO"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:textSize="18dp"
+						android:textStyle="bold"
+						android:textColor="#FFFFFF"
+						android:layout_marginLeft="32dp"
+						android:layout_marginTop="10dp"
+						android:id="@+id/txtname" />
+				
+				<TextView
+					android:text="CONTACT AND EMAIL"
+					android:paddingTop="30dp"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:textSize="18dp"
+					android:drawableLeft="@drawable/phonebook"
+					android:textColor="#FFFFFF"
+					android:drawablePadding="20dp"
+					android:id="@+id/lblcontacs" />
+
+				<TextView
+					android:text="09662146331"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:textSize="18dp"
+					android:layout_marginLeft="32dp"
+					android:layout_marginTop="10dp"
+					android:textStyle="bold"
+					android:textColor="#FFFFFF"
+					android:id="@+id/txtcontact" />
+
+				<TextView
+					android:text="jorem34@gmail.com"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:textSize="18dp"
+					android:layout_marginLeft="32dp"
+					android:layout_marginTop="10dp"
+					android:textStyle="bold"
+					android:textColor="#FFFFFF"
+					android:id="@+id/txtmail" />
+
+					<TextView
+						android:text="ADDRESS"
+						android:paddingTop="10dp"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:textSize="18dp"
+						android:layout_marginTop="20dp"
+						android:drawableLeft="@drawable/homeaddress1"
+						android:textColor="#FFFFFF"
+						android:drawablePadding="20dp"
+						android:id="@+id/lblusers" />
+
+					<TextView
+					android:text="59 S. Policarpio St Sanjose Navotas City"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:textSize="18dp"
+					android:textColor="#FFFFFF"
+					android:layout_marginLeft="32dp"
+					android:layout_marginTop="10dp"
+					android:textStyle="bold"
+					android:id="@+id/txtaddress" />
+					<LinearLayout
+						android:orientation="vertical"
+						android:minWidth="25px"
+						android:minHeight="25px"
+						android:background="#7030A0"
+						android:gravity="center"
+						android:layout_marginTop="20dp"
+						android:layout_width = "match_parent"
+						android:layout_height = "30dp">
+
+						<TextView
+							android:text="ADD ACTIVITY. . ."
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:textSize="15dp"
+							android:textStyle="italic"
+							android:textColor="#ffff"
+							android:layout_gravity="right"
+							android:layout_marginRight="10dp"
+							android:id="@+id/lblview"/>
+					</LinearLayout>
+					<LinearLayout
+						android:orientation="vertical"
+						android:minWidth="25px"
+						android:minHeight="25px"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:paddingLeft="20dp"
+						android:paddingRight="20dp"
+						android:layout_marginTop="5dp"
+						android:background="#151515"
+						android:gravity="center"
+						android:id="@+id/linearLayout1">
+					</LinearLayout>
+				</LinearLayout>	
+			</android.support.v4.widget.NestedScrollView>
+
+	</LinearLayout>
+</LinearLayout>

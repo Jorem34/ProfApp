@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionName="1.0.10" package="ProfApp.ProfApp" android:installLocation="auto" android:versionCode="10">
+  <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="27" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.CAMERA" />
+  <application android:allowBackup="true" android:label="ProfApp" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppTheme" android:icon="@drawable/icon" android:name="android.app.Application" android:debuggable="true">
+    <activity android:label="addActivityActivity" android:name="md5200306122b340c585bc98fa8f5e9c06f.addActivityActivity" />
+    <activity android:label="AddAnnouncementActivity" android:name="md5200306122b340c585bc98fa8f5e9c06f.AddAnnouncementActivity" />
+    <activity android:label="AddHandOutsActivity" android:name="md5200306122b340c585bc98fa8f5e9c06f.AddHandOutsActivity" />
+    <activity android:label="AddSectionActivity" android:name="md5200306122b340c585bc98fa8f5e9c06f.AddSectionActivity" />
+    <activity android:label="AnnouncementPickSectionActivity" android:name="md5200306122b340c585bc98fa8f5e9c06f.AnnouncementPickSectionActivity" />
+    <activity android:label="DashboardActivity" android:name="md5200306122b340c585bc98fa8f5e9c06f.DashboardActivity" />
+    <activity android:label="freeViewAnnouncement" android:name="md5200306122b340c585bc98fa8f5e9c06f.freeViewAnnouncement" />
+    <activity android:label="freeviewHandoutAction" android:name="md5200306122b340c585bc98fa8f5e9c06f.freeviewHandoutAction" />
+    <activity android:label="handoutUploaderActivity" android:name="md5200306122b340c585bc98fa8f5e9c06f.handoutUploaderActivity" />
+    <activity android:label="@string/app_name" android:theme="@style/Theme.Design.Light.NoActionBar" android:name="md5200306122b340c585bc98fa8f5e9c06f.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:label="QRActivity" android:name="md5200306122b340c585bc98fa8f5e9c06f.QRActivity" />
+    <activity android:label="QuestionInList" android:name="md5200306122b340c585bc98fa8f5e9c06f.QuestionInList" />
+    <activity android:label="QuizFreeViewActivity" android:name="md5200306122b340c585bc98fa8f5e9c06f.QuizFreeViewActivity" />
+    <activity android:label="QuizTitlesActivity" android:name="md5200306122b340c585bc98fa8f5e9c06f.QuizTitlesActivity" />
+    <activity android:label="RecitationActivity" android:name="md5200306122b340c585bc98fa8f5e9c06f.RecitationActivity" />
+    <activity android:label="RecitationPickerActivity" android:name="md5200306122b340c585bc98fa8f5e9c06f.RecitationPickerActivity" />
+    <activity android:label="RegistrationActivity" android:name="md5200306122b340c585bc98fa8f5e9c06f.RegistrationActivity" />
+    <activity android:label="scoreActivity" android:name="md5200306122b340c585bc98fa8f5e9c06f.scoreActivity" />
+    <activity android:label="SectionAttendanceActivity" android:name="md5200306122b340c585bc98fa8f5e9c06f.SectionAttendanceActivity" />
+    <activity android:label="sectionListActivity" android:name="md5200306122b340c585bc98fa8f5e9c06f.sectionListActivity" />
+    <activity android:label="SelectionForQuiz" android:name="md5200306122b340c585bc98fa8f5e9c06f.SelectionForQuiz" />
+    <activity android:label="studentProfileActivity" android:name="md5200306122b340c585bc98fa8f5e9c06f.studentProfileActivity" />
+    <activity android:label="studentSectionAction" android:name="md5200306122b340c585bc98fa8f5e9c06f.studentSectionAction" />
+    <activity android:label="webViewActivity" android:name="md5200306122b340c585bc98fa8f5e9c06f.webViewActivity" />
+    <activity android:configChanges="orientation|screenSize" android:name="md54fe4aef201482be7d95d72c0c9bf0b33.FilePickerActivity" />
+    <activity android:configChanges="keyboardHidden|orientation|screenLayout" android:label="Scanner" android:name="md5bb098716dd46c8e113564e6b42b7cde9.ZxingActivity" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="ProfApp.ProfApp.mono.MonoRuntimeProvider.__mono_init__" />
+    <!--suppress ExportedReceiver-->
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.ProfApp.ProfApp" />
+      </intent-filter>
+    </receiver>
+  </application>
+</manifest>

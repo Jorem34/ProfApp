@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="#151515"
+		android:id="@+id/linearLayout2">
+
+			<RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/RelativeLayout1"
+				android:background="#252424"
+				android:layout_marginBottom="10dp">
+
+				<ImageView
+					android:src="@drawable/profileown"
+					android:layout_width="60dp"
+					android:layout_height="60dp"
+					android:id="@+id/imageView1"/>
+
+				<TextView
+					android:text="DASHBOARD"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textSize="20dp"
+					android:textStyle="bold"
+					android:textColor="#ffff"
+					android:id="@+id/news"
+					android:layout_centerInParent="true"/>
+			
+			</RelativeLayout>
+
+
+		
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/RelativeLayout1"
+			android:paddingLeft="10dp"
+			android:paddingRight="10dp"
+			android:layout_marginBottom="10dp">
+			<LinearLayout
+				android:layout_height="180dp"
+				android:layout_width="180dp"
+				android:background="@drawable/layout_bg"
+				android:gravity="center"
+				android:orientation="vertical"
+				android:id="@+id/linearLayoutQR">
+
+				<ImageView
+					android:src="@drawable/qrcode"
+					android:layout_height="100dp"
+					android:layout_width="130dp"/>
+				<TextView
+					android:text="Scan Attendance"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textSize="17dp"
+					android:textColor="#fff"
+					android:id="@+id/news"/>
+				
+			</LinearLayout>
+			<LinearLayout
+			android:layout_height="180dp"
+			android:layout_width="180dp"
+			android:layout_marginLeft="10dp"
+			android:gravity="center"
+			android:background="@drawable/layout_bg"
+			android:orientation="vertical"
+			android:id="@+id/linearLayoutStudents"
+			android:layout_toRightOf="@id/linearLayoutQR">
+				<ImageView
+					android:src="@drawable/classroom"
+					android:layout_height="100dp"
+					android:layout_width="130dp"/>
+
+				<TextView
+					android:text="Students/Sections"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textSize="17dp"
+					android:textColor="#fff"
+					android:id="@+id/news"/>
+
+
+			</LinearLayout>
+		</RelativeLayout>
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/RelativeLayout3"
+			android:paddingLeft="10dp"
+			android:paddingRight="10dp"
+			android:layout_marginBottom="10dp">
+
+			<LinearLayout
+				android:layout_height="180dp"
+				android:layout_width="180dp"
+				android:gravity="center"
+				android:background="@drawable/layout_bg"
+				android:orientation="vertical"
+				android:id="@+id/linearLayoutAttendance">
+				<ImageView
+					android:src="@drawable/pdfbig"
+					android:layout_height="100dp"
+					android:layout_width="130dp"/>
+
+				<TextView
+					android:text="Upload Handouts"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textSize="17dp"
+					android:textColor="#fff"
+					android:id="@+id/news"/>
+				
+			</LinearLayout>
+			<LinearLayout
+				android:layout_height="180dp"
+				android:layout_width="180dp"
+				android:layout_marginLeft="10dp"
+				android:gravity="center"
+				android:background="@drawable/layout_bg"
+				android:orientation="vertical"
+				android:id="@+id/linearLayoutStudentUploadPdf"
+				android:layout_toRightOf="@id/linearLayoutAttendance">
+
+				<ImageView
+				android:src="@drawable/promotion"
+				android:layout_height="100dp"
+				android:layout_width="100dp"/>
+
+				<TextView
+					android:text="Create Announcement"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textSize="17dp"
+					android:textColor="#fff"
+					android:id="@+id/news"/>
+			</LinearLayout>
+
+		</RelativeLayout>
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/RelativeLayout3"
+			android:paddingLeft="10dp"
+			android:paddingRight="10dp"
+			android:layout_marginBottom="10dp">
+			<LinearLayout
+				android:layout_height="180dp"
+				android:layout_width="180dp"
+				android:gravity="center"
+				android:orientation="vertical"
+				android:background="@drawable/layout_bg"
+				android:id="@+id/Randompicker">
+				<ImageView
+				android:src="@drawable/shuffle"
+				android:layout_height="100dp"
+				android:layout_width="130dp"/>
+
+				<TextView
+					android:text="Random Recitation"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textSize="17dp"
+					android:textColor="#fff"
+					android:id="@+id/news"/>
+			</LinearLayout>
+			<LinearLayout
+				android:layout_height="180dp"
+				android:layout_width="180dp"
+				android:layout_marginLeft="10dp"
+				android:gravity="center"
+				android:background="@drawable/layout_bg"
+				android:orientation="vertical"
+				android:id="@+id/Quiz"
+				android:layout_toRightOf="@id/Randompicker">
+
+				<ImageView
+				android:src="@drawable/quiz"
+				android:layout_height="100dp"
+				android:layout_width="130dp"/>
+
+				<TextView
+					android:text="Quiz"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textSize="17dp"
+					android:textColor="#fff"
+					android:id="@+id/news"/>
+			</LinearLayout>
+		</RelativeLayout>
+
+		</LinearLayout>
+
+</LinearLayout>
